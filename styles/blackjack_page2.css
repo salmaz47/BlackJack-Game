@@ -1,0 +1,87 @@
+body
+{
+    background-image: url("../images/green-slate.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    text-align: center;
+    
+}
+img
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+    max-width: 25%;
+    
+}
+p
+{
+    
+    font-size: 60px;
+    color: black;
+    margin-top: 20px;
+}
+#message-el
+{
+    color: goldenrod;
+    font-style: italic;
+}
+.game-button {
+    height: 80px;
+    width: 350px;
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px goldenrod;
+    transition: all 0.2s ease-in-out;
+    display: inline;
+  
+  }
+ 
+  
+  .play-icon {
+    width: 28px;
+    height: 28px;
+    fill: #fff;
+    margin-right: 10px;
+  }
+  
+  .game-button:hover {
+    background-color: #0b0c0c;
+    color: goldenrod;
+    box-shadow: 2px 2px 20px #0b0c0c;
+    transform: translateY(-2px);
+  }
+  .container
+  {
+    text-align: center;
+  }
+  .newcard-btn
+  {
+    height: 80px;
+    width: 350px;
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px goldenrod;
+    transition: all 0.2s ease-in-out;
+  }
+  .newcard-btn:hover {
+    background-color: #0b0c0c;
+    color: goldenrod;
+    box-shadow: 2px 2px 20px #0b0c0c;
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let's play</title>
+    <link rel="stylesheet" href="styles/blackjack_page2.css">
+</head>
+<body>
+    <div class="container">
+    <div class="imge"><img  src="images/pngwing.com.png"></div>
+    <p id="message-el">Want To Play A Round?</p>
+    <p id="cards-el">Cards: </p>
+    <p id="sum-el">Sum: </p>
+    <button onclick="startGame()" class="game-button">
+        <svg class="play-icon" viewBox="0 0 40 40">
+            <path d="M 10,10 L 30,20 L 10,30 z"></path>
+        </svg>
+        Play Now
+    </button>   
+
+    <button onclick="newcard()" class="newcard-btn">
+        <svg class="play-icon" viewBox="0 0 40 40">
+            <path d="M 10,10 L 30,20 L 10,30 z"></path>
+        </svg>
+        New Card
+    </button>   
+</div>
+<script src="blackjack.js"></script> 
+</body>
+</html>
